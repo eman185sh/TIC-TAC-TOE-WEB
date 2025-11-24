@@ -1,7 +1,7 @@
 from flask import Flask, render_template_string, request, redirect, session, url_for
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key_here'  # غيرها لسر قوي
+app.secret_key = 'your_secret_key_here'  
 
 TEMPLATE = """
 <!doctype html>
